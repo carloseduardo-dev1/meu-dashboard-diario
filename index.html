@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Dashboard Diário</title>
+  <link rel="stylesheet" href="style.css"> <!--conectando com a pagina style.css-->
+</head>
+<body>
+  <div class="dashboard"> <!-- painel principal -->
+    <h1>🌤️ Meu Dashboard Diário</h1>
+
+    <!-- informações dinâmicas preenchidas pelo JS -->
+    <p id="hora"></p>
+    <p id="data"></p>
+    <p id="clima"></p>
+    <p id="frase"></p>
+
+    <h2>✅ Tarefas do dia</h2> <!-- lista de tarefas -->
+    <ul id="lista"></ul>
+    <input id="novaTarefa" placeholder="Nova tarefa"> <!-- campo para adicionar tarefa -->
+    <button id="adicionar">Adicionar</button> <!-- botão para adicionar tarefa -->
+  </div>
+
+  <script src="script.js"></script> <!--conectando a pagina script.js-->
+</body>
+</html>
