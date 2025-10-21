@@ -7,7 +7,7 @@ Um painel pessoal feito em **HTML, CSS e JavaScript** para visualizar informaç�
 - 🕒 **Hora e data atualizadas em tempo real**
 - 🌦️ **Clima da sua cidade** (usando API pública)
 - 💬 **Frase motivacional do dia**
-- ✅ **Lista de tarefas** (salva no navegador com `localStorage`)
+- ✅ **Lista de tarefas** 
 - 🎨 Interface limpa e responsiva
 
 ---
