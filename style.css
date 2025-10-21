@@ -1,0 +1,64 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(180deg, #296fb1, #fff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0px;
+}
+
+.dashboard {
+  background: white;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 350px;
+  text-align: center;
+}
+
+#novaTarefa {
+  width: 150px;
+  height: 15px;
+  font-size: 16px;
+  border-radius: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+#adicionar {
+  width: 150px;
+  height: 30px; 
+  font-size: 15px;
+  border-radius: 10px;
+  border: 2px; 
+  padding: 8px;
+  background-color: #4b84b9; /* azul */
+  color: white; 
+  box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+  transition: 0.3s; 
+  font-weight: 100;
+}
+h1{
+  color: #0077b6;
+}
+
+#hora{
+   font-weight: 700;
+}
+
+#frase{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#lista {
+  list-style: none;
+  padding: 0;
+}
+
+#lista li {
+  margin: 5px 0;
+  cursor: pointer;
+}
